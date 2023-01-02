@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function add(){
+            var a,b,c;
+            a=parseInt(document.getElementById("first").value);
+            b=parseInt(document.getElementById("second").value);
+            c=a+b;
+            document.getElementById("answer").value=c;
+        }
+        function multiply(){
+            var a,b,c;
+            a=parseInt(document.getElementById("first").value);
+            b=parseInt(document.getElementById("second").value);
+            c=a*b;
+            document.getElementById("answer").value=c;
+        }
+    </script>
+</head>
+<body>
+    <fieldset>
+    <p>Enter first number:</p>
+    <input type="text" id="first">
+    <p>Enter second number:</p>
+    <input type="text" id="second">
+    <hr>
+    <input type="button" value="addition" onclick="add()" >
+    <input type="button" value="multiply" onclick="multiply()">
+    <input type="" id="answer">
+</fieldset>
+</body>
+</html>

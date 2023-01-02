@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function calculate() {
+            var n = document.getElementById("number").value;
+            switch (n) {
+                case '1':
+                    alert("sunday");
+                    break;
+                case '2':
+                    alert("monday");
+                    break;
+                case '3':
+                    alert("tuesday");
+                    break;
+                case '4':
+                    alert("wednesday");
+                    break;
+                case '5':
+                    alert("thusday");
+                    break;
+                case '6':
+                    alert("fridays");
+                    break;
+                case '7':
+                    alert("saturday");
+                    break;
+                default:
+                    alert("please enter between 1 and 7 number")
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <p>Enter number from 1 to 7:</p>
+    <input type="text" id="number"><br><br>
+    <input type="submit" value="submit" onclick="calculate()">
+</body>
+</html>

@@ -1,0 +1,13 @@
+table,td,tr{
+    border: 1px solid;
+    border-radius: 7px;
+    border-color :blue;
+
+}
+table{
+    margin-left: 600px;
+    background-color: aqua;
+}
+body{
+    background-color: antiquewhite;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function validation() {
+            var name = document.getElementById("name1").value;
+            var Email = document.getElementById("name2").value;
+            var zipcode = document.getElementById("name3").value;
+            var country = document.getElementById("name4").value;
+
+            if(name="adityajha"&&Email=="akashjha488@gmail.com"&&zipcode=="32900"&&country=="nepal"){
+                alert("you are login successfully ");
+            }
+            else{
+                alert("your enter wrong name or email or zipcode or country");
+            }
+        }
+    </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table style="stroke: saddlebrown;">
+        <tr>
+            <td>
+                <p>Name:</p>
+                <input type="text" name="" id="name1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Email:</p>
+                <input type="text" name="" id="name2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Zip code:</p>
+                <input type="text" name="" id="name3">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>country:</p>
+                <input type="text" name="" id="name4">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" name="" id="" value="submit" onclick="validation()">
+            </td>   
+        </tr>
+    </table>
+</body>
+
+</html>
